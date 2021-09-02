@@ -1,0 +1,164 @@
+ul {
+     flex: 1;
+ }
+
+#new img {
+     height: 150px;
+     width: 150px
+ }
+
+#new {
+    flex: 5;
+    background-color: var(--dark);
+    padding: 20px;
+    height: 250px;
+}
+
+#new div {
+    margin: 20px
+}
+
+#newBold {
+    background-color: var(--bright);
+    color: var(--veryDark);
+    font-size: 1.5rem;
+    padding: 4px;
+}
+
+.largerText {
+    font-size: 1.3rem;
+}
+
+.btn {
+    border: 2px solid var(--medium);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: var(--medium);
+    color:var(--medium);
+    width: 40%;
+    text-decoration: none;
+    margin-left: 17px;
+    text-align: center;
+  }
+
+.btn:hover {
+    color:var(--bright);
+    border-color: var(--bright);
+  }
+
+#intro {
+    flex: 5;
+    padding: 2rem;
+}
+
+.languages {
+    flex: 1;
+    text-align:center;
+}
+
+li {
+    flex: 1;
+    text-align: center;
+    list-style: none;
+}
+
+#mike {
+    color: var(--light);
+    
+}
+
+#name {
+    color:var(--light);
+ 
+}
+
+hr {
+    background-color: var(--bright);
+    margin-top: 40px;
+    height: 4px;
+}
+
+#projects a, #resume a {
+    margin: 10px;
+}
+
+img {
+    width: 275px;
+}
+
+img:hover {
+    opacity: 0.4;
+}
+
+.centered { 
+    pointer-events:none; 
+}
+
+#projects a, #resume a {
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+#construction {
+    flex: 1;
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+nav {
+    background-color: #202026;
+    margin-bottom: 30px;
+}
+
+nav li a {
+    
+    text-decoration: none;
+    color: #C5C6C7;;
+}
+
+nav a:hover {
+    border-bottom: #66FCF1 1px solid;
+    color: #66FCF1;
+}
+
+/* Center text on image */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 1rem;
+  }
+
+/* Center text on image */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #66FCF1;
+    font-size: 1.5rem;;
+    display:none;
+  }
+
+ .container:hover .centered {
+     display: flex;   
+ }
+
+ .bold {
+     font-style: bold;
+ }
+
+ #footer {
+      background-color: var(--dark);
+      margin-top: 60px;
+      margin-bottom: 0px;
+      height: 4rem;
+      padding-left: 20px;
+ }
+
+ 

@@ -1,0 +1,26 @@
+.flex-container-h {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;   
+}
+
+.flex-container-v {
+    text-align: center;
+}
+
+.btn {
+    margin: auto;
+}
+
+#intro {
+    display: none;
+}
+
+#nav > ul > li > a {
+    display: none;
+}
+
+#construction{
+    display: none;
+}

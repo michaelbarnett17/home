@@ -1,0 +1,31 @@
+html {
+    --veryDark: #0B0C10;
+    --dark:#202026;
+    --medium: #C5C6C7;
+    --light: white;
+    --bright: #66FCF1;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--veryDark);
+    color: var(--bright);
+}
+
+.flex-container-v {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container-h {
+    display: flex;
+    align-items: center;
+    flex-direction: row;    
+}
+
+.margin_l_r {
+    margin-left: 2rem;
+ }
